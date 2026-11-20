@@ -146,10 +146,10 @@ export const timelineEvents = [
   {
     id: 1,
     tag: "Chapter 1",
-    title: "The Beginning of Our Bond",
-    date: "Day One",
-    description: "Who knew that a random conversation would turn into the most irreplaceable friendship of my life? From shy greetings to sharing every secret.",
-    sticker: "🌱",
+    title: "Bonding Over Momos 🥟",
+    date: "The Random Beginning",
+    description: "Who would have thought that a completely random meetup and a plate of momos would give me my soul sister for life? From sharing spicy chutney to sharing every single secret, that random momo craving started the best friendship story ever.",
+    sticker: "🥟",
     photo: "./images/bhummii-6.jpg",
     color: "#FADADD"
   },
@@ -200,15 +200,17 @@ export const letterContent = {
   salutation: "Dear Bhummii,",
   body: `Happy Birthday to my favourite human!
 
-I don't know how to put all our memories, laughter, craziness and little moments into words, but I hope you know how special you are to me.
+Who knew that a random conversation over a plate of momos would give me the most special, crazy, and irreplaceable friend in the entire world?
 
-Thank you for being YOU. I hope this year brings you endless happiness, beautiful surprises, exciting adventures and everything your heart wishes for.
+I don't know how to put all our memories, laughter, craziness and little moments into words, but I hope you know how much you mean to me.
+
+Thank you for being YOU. I hope this year brings you endless happiness, beautiful surprises, exciting adventures, and endless plates of hot momos!
 
 No matter how many birthdays pass, I hope we keep making memories, laughing at our stupid jokes and being our usual crazy selves.
 
 Love you loads, Bhummii! ❤️`,
   signOff: "Forever your bestie.",
-  postScript: "P.S. You will always be stuck with me! Deal with it ♡",
+  postScript: "P.S. You're still paying for the next momo round! Deal with it ♡",
   attachedPhoto: "./images/bhummii-2.jpg"
 };
 
@@ -307,13 +309,14 @@ export const reasonsList = [
 ];
 
 export const sweetSurpriseMessages = [
+  "A random plate of momos gave me my favorite human for life! 🥟💗",
   "Bhummii, if friendship were an art, ours would be a masterpiece hanging in the Louvre! 🎨💗",
   "Reminder: You are gorgeous, talented, deeply loved, and entirely irreplaceable! 🌸✨",
-  "Promise me we'll still be laughing at silly jokes when we're 80 years old with rocking chairs! 👵🏼👵🏼",
+  "Promise me we'll still be eating momos and laughing at silly jokes when we're 80 years old! 👵🏼👵🏼",
   "May your birthday cake be as sweet as your heart and your year as bright as your smile! 🎂💫",
   "Every memory with you is bookmarked in my heart forever. Love you tons! 📖💖",
   "You're not just a friend; you're the sister chosen by heart! Happy Birthday, bestie! 👯‍♀️🌷",
-  "Eat as much cake as you want today—birthday calories are officially illegal! 🍰🧁",
+  "Eat as much cake and momos as you want today—birthday calories are officially illegal! 🍰🥟",
   "Thank you for being my constant, my sounding board, and my ride-or-die! 🚗💨💗"
 ];
 
