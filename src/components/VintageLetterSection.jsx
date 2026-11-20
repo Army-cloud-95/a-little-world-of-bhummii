@@ -112,6 +112,25 @@ export default function VintageLetterSection() {
               {letterContent.body}
             </div>
 
+            {/* Attached Bestie Polaroid Keepsake */}
+            {letterContent.attachedPhoto && (
+              <div className="my-8 flex justify-center sm:justify-end">
+                <div className="polaroid-card p-3 rounded-xl rotate-[3deg] shadow-polaroid border border-pastelPink/40 max-w-[200px] relative">
+                  <div className="washi-tape washi-tape-lavender" />
+                  <div className="aspect-square rounded-lg overflow-hidden bg-pastelPink/30 mb-2">
+                    <img
+                      src={letterContent.attachedPhoto}
+                      alt="Us Forever"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="font-handwritten text-center text-sm font-bold text-softBurgundy">
+                    Forever Us ♡
+                  </p>
+                </div>
+              </div>
+            )}
+
             {/* Sign-Off */}
             <div className="mt-10 pt-6 border-t border-softBurgundy/15 flex flex-col items-end">
               <span className="font-script text-3xl sm:text-4xl text-warmRose font-bold">

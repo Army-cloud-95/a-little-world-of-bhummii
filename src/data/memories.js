@@ -3,10 +3,7 @@
  * 💗 A LITTLE WORLD OF BHUMMII - CENTRALIZED DATA CONFIGURATION 💗
  * =========================================================================
  * 
- * Edit this file to customize any text, photos, videos, or messages!
- * To add personal photos/videos:
- * 1. Place your files inside the `public/images/` or `public/videos/` folders.
- * 2. Update the `url`, `thumbnail`, or `videoUrl` paths below.
+ * Personal photos and details for Bhumika Tyagi's Birthday Surprise!
  * =========================================================================
  */
 
@@ -19,62 +16,98 @@ export const personalDetails = {
   heroHeading: "Happy Birthday, My Bhummii! ♡",
   heroSubtitle: "To the girl who makes ordinary moments feel extraordinary.",
   heroButtonText: "Open Your Little Surprise ♡",
-  heroTeaserImage: "/images/hero-teaser.jpg",
+  heroTeaserImage: "./images/bhummii-7.jpg",
 };
 
 export const photoGallery = [
   {
     id: 1,
-    url: "/images/photo1.jpg",
-    fallbackUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
-    caption: "The one where laughter wouldn't stop ✨",
-    date: "A Day to Remember",
-    rotation: "-3deg",
-    tag: "Core Memory"
+    url: "./images/bhummii-1.jpg",
+    fallbackUrl: "./images/bhummii-1.jpg",
+    caption: "Partners in crime & unmatched cool vibes 🕶️",
+    date: "Campus Memories",
+    rotation: "-2.5deg",
+    tag: "Iconic Duo"
   },
   {
     id: 2,
-    url: "/images/photo2.jpg",
-    fallbackUrl: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80",
-    caption: "Radiating sunshine and pure cuteness 🌸",
-    date: "Golden Hour Vibes",
-    rotation: "2deg",
-    tag: "Cutie"
+    url: "./images/bhummii-2.jpg",
+    fallbackUrl: "./images/bhummii-2.jpg",
+    caption: "My favourite human in the whole universe 💋",
+    date: "Sweet Moments",
+    rotation: "2.5deg",
+    tag: "Pure Love"
   },
   {
     id: 3,
-    url: "/images/photo3.jpg",
-    fallbackUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=80",
-    caption: "Partners in crime & forever chaos 🎀",
-    date: "Bestie Energy",
-    rotation: "-2deg",
-    tag: "Iconic"
+    url: "./images/bhummii-3.jpg",
+    fallbackUrl: "./images/bhummii-3.jpg",
+    caption: "Festive glam & that million-watt smile ✨",
+    date: "Festive Night",
+    rotation: "-1.5deg",
+    tag: "Stunning"
   },
   {
     id: 4,
-    url: "/images/photo4.jpg",
-    fallbackUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
-    caption: "That smile that lights up any dark room 💫",
-    date: "Sweet Moments",
-    rotation: "3deg",
-    tag: "Precious"
+    url: "./images/bhummii-4.jpg",
+    fallbackUrl: "./images/bhummii-4.jpg",
+    caption: "Effortlessly gorgeous, absolute queen energy 👑",
+    date: "Evening Gala",
+    rotation: "2deg",
+    tag: "Queen Energy"
   },
   {
     id: 5,
-    url: "/images/photo5.jpg",
-    fallbackUrl: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80",
-    caption: "Unfiltered, goofy, and 100% us 🧁",
-    date: "No Filter Needed",
-    rotation: "-1.5deg",
-    tag: "Real One"
+    url: "./images/bhummii-5.jpg",
+    fallbackUrl: "./images/bhummii-5.jpg",
+    caption: "Grace, poise, and pure beauty in traditional saree 🤍",
+    date: "Saree Day",
+    rotation: "-2deg",
+    tag: "Grace"
   },
   {
     id: 6,
-    url: "/images/photo6.jpg",
-    fallbackUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80",
-    caption: "To a million more birthdays together! 🥂",
-    date: "Forever & Ever",
-    rotation: "2.5deg",
+    url: "./images/bhummii-6.jpg",
+    fallbackUrl: "./images/bhummii-6.jpg",
+    caption: "Unfiltered laughter & core memories that never fade 🎞️",
+    date: "Bestie Smiles",
+    rotation: "2deg",
+    tag: "Core Memory"
+  },
+  {
+    id: 7,
+    url: "./images/bhummii-7.jpg",
+    fallbackUrl: "./images/bhummii-7.jpg",
+    caption: "Radiating warmth, sunshine, and happiness in pink 🌸",
+    date: "Golden Moments",
+    rotation: "-3deg",
+    tag: "Sunshine"
+  },
+  {
+    id: 8,
+    url: "./images/bhummii-8.jpg",
+    fallbackUrl: "./images/bhummii-8.jpg",
+    caption: "Caught mid-laugh, the prettiest candid smile 💫",
+    date: "Celebration Night",
+    rotation: "1.5deg",
+    tag: "Candid Joy"
+  },
+  {
+    id: 9,
+    url: "./images/bhummii-9.jpg",
+    fallbackUrl: "./images/bhummii-9.jpg",
+    caption: "Laughter that cures everything on difficult days ☕",
+    date: "Little Moments",
+    rotation: "-2deg",
+    tag: "Always Together"
+  },
+  {
+    id: 10,
+    url: "./images/bhummii-10.jpg",
+    fallbackUrl: "./images/bhummii-10.jpg",
+    caption: "Two crazy souls, one eternal bond 💗",
+    date: "Forever Us",
+    rotation: "3deg",
     tag: "Forever"
   }
 ];
@@ -82,28 +115,28 @@ export const photoGallery = [
 export const videoGallery = [
   {
     id: 1,
-    title: "Uncontrollable Giggles",
-    videoUrl: "/videos/memory1.mp4",
+    title: "Uncontrollable Giggles with Bhummii",
+    videoUrl: "./videos/memory1.mp4",
     fallbackUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-    thumbnail: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "./images/bhummii-1.jpg",
     caption: "When we couldn't stop laughing for 20 minutes straight! 😂",
     duration: "0:45"
   },
   {
     id: 2,
-    title: "Vibing & Singing Our Hearts Out",
-    videoUrl: "/videos/memory2.mp4",
+    title: "Singing & Vibing to Our Playlists",
+    videoUrl: "./videos/memory2.mp4",
     fallbackUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-    thumbnail: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "./images/bhummii-3.jpg",
     caption: "Car rides, favorite playlists, and terrible singing. Best memories! 🎶",
     duration: "1:15"
   },
   {
     id: 3,
     title: "Random Adventures with Bhummii",
-    videoUrl: "/videos/memory3.mp4",
+    videoUrl: "./videos/memory3.mp4",
     fallbackUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-    thumbnail: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "./images/bhummii-7.jpg",
     caption: "Every ordinary walk turns into an unforgettable adventure with you! 🎈",
     duration: "0:58"
   }
@@ -117,6 +150,7 @@ export const timelineEvents = [
     date: "Day One",
     description: "Who knew that a random conversation would turn into the most irreplaceable friendship of my life? From shy greetings to sharing every secret.",
     sticker: "🌱",
+    photo: "./images/bhummii-6.jpg",
     color: "#FADADD"
   },
   {
@@ -126,6 +160,7 @@ export const timelineEvents = [
     date: "Always",
     description: "Hours of talking about dreams, fears, gossip, college stress, and absolutely everything under the stars. The kind of conversations that heal the soul.",
     sticker: "☕",
+    photo: "./images/bhummii-9.jpg",
     color: "#E6D9F2"
   },
   {
@@ -135,6 +170,7 @@ export const timelineEvents = [
     date: "Every Single Day",
     description: "Inside jokes that only two people understand. The silent looks across the room where we both burst into laughter without uttering a single word.",
     sticker: "🤪",
+    photo: "./images/bhummii-1.jpg",
     color: "#F8C8DC"
   },
   {
@@ -144,6 +180,7 @@ export const timelineEvents = [
     date: "Throughout Life",
     description: "Thank you for being the one person I can go to on my worst days and leave with a smile. You've been my constant anchor and greatest cheerleader.",
     sticker: "🛡️",
+    photo: "./images/bhummii-2.jpg",
     color: "#FFF8F0"
   },
   {
@@ -153,6 +190,7 @@ export const timelineEvents = [
     date: "21 November 2026",
     description: "Celebrating YOU today! Another year older, wiser, prettier, and somehow even more lovable. Here's to lifelong madness together!",
     sticker: "👑",
+    photo: "./images/bhummii-4.jpg",
     color: "#FADADD"
   }
 ];
@@ -170,7 +208,8 @@ No matter how many birthdays pass, I hope we keep making memories, laughing at o
 
 Love you loads, Bhummii! ❤️`,
   signOff: "Forever your bestie.",
-  postScript: "P.S. You will always be stuck with me! Deal with it ♡"
+  postScript: "P.S. You will always be stuck with me! Deal with it ♡",
+  attachedPhoto: "./images/bhummii-2.jpg"
 };
 
 export const bouquetFlowers = [

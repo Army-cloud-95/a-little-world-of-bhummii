@@ -69,6 +69,18 @@ export default function TimelineSection() {
                     {event.title}
                   </h3>
 
+                  {/* Optional Timeline Photo Snapshot */}
+                  {event.photo && (
+                    <div className="my-3 overflow-hidden rounded-xl border border-pastelPink/40 shadow-sm aspect-video sm:aspect-[16/10] bg-pastelPink/20">
+                      <img
+                        src={event.photo}
+                        alt={event.title}
+                        loading="lazy"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
+
                   {/* Description */}
                   <p className="font-sans text-sm sm:text-base text-softBurgundy/85 leading-relaxed">
                     {event.description}
